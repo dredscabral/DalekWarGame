@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
 
+    public Text healthText;
     int health;
     // Use this for initialization
     void Start()
@@ -17,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
 
+        showHealth();
         if (health <= 0)
         {
             SceneManager.LoadScene("GameOver");
@@ -44,4 +47,10 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    
+
+    private void showHealth()
+    {
+        healthText.text = "Health: " + health;
+    }
 }

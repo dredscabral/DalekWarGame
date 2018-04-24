@@ -19,9 +19,14 @@ public class BulletController : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (!col.gameObject.isStatic && col.gameObject.tag != "Player" && col.gameObject.tag != "PowerUp")
+        if (!col.gameObject.isStatic && col.gameObject.tag != "Player" && col.gameObject.tag != "PowerUp" && col.gameObject.tag != "UndestroyableBlock")
         {
             Destroy(col.gameObject);
+        }
+
+        if (col.gameObject.tag == "Enemies") {
+            PlayerStats.Kills +=1;
+            Debug.Log("Just killed an enemy !!!");
         }
     }
 }

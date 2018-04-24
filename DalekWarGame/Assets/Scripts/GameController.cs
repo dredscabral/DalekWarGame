@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour {
 
     void Start () {
         Cursor.visible = false;
+        PlayerStats.Kills = 0;
     }
 	
 	void Update () {
