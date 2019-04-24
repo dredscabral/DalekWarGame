@@ -13,8 +13,8 @@ Now that you know all about the Dalek War, let's ** Exterminate!  ** all your en
  ** Allons-y! **
  
 ## Instrunctions to play
- 1. ´a´, ´s´, ´d´ and ´w´ keys to move
- 2. ´space´ to shoot
+ 1. `a`, `s`, `d` and `w` keys to move
+ 2. `space` to shoot
  
 ## Play here
 https://dredscabral.github.io/DalekWar_Page/index.html
