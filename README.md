@@ -17,7 +17,7 @@ Now that you know all about the Dalek War, let's ** Exterminate!  ** all your en
  2. ´space´ to shoot
  
 ## Play here
-´https://dredscabral.github.io/DalekWar_Page/index.html´
+https://dredscabral.github.io/DalekWar_Page/index.html
 
 
 
